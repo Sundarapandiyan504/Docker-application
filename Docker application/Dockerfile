@@ -1,6 +1,6 @@
 FROM node:slim
 
-LABEL maintainer="Delotiee"
+LABEL maintainer="Deloitte"
 
 WORKDIR /app
 
