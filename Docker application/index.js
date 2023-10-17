@@ -2,7 +2,7 @@ require("dotenv").config();
 var express = require('express');
 var app = express();
 const mongoose = require("mongoose");
-var url="mongodb://127.0.0.1:27017";
+var url="mongodb://ENTER YOUR IP:27017";
 app.use(express.urlencoded({ extended: true }));
 
 const connectionParams = {
